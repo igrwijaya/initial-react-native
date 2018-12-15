@@ -1,4 +1,4 @@
-package com.testreactx;
+package com.igrwijayasample;
 
 import android.app.Application;
 
