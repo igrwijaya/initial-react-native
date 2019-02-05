@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "android-serve": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
+    "android-serve": "react-native bundle --platform android --dev true --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android",
     "test": "jest",
     "tsc": "tsc"
   },
@@ -21,7 +21,10 @@
     "jest": "23.6.0",
     "metro-react-native-babel-preset": "0.48.5",
     "react-test-renderer": "16.6.3",
-    "typescript": "3.2.2"
+    "typescript": "^3.3.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^3.6.0"
   },
   "jest": {
     "preset": "react-native"
